@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YmT-zR-syW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s5Z-o4-URI">
+            <objects>
+                <viewController id="YmT-zR-syW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NWh-OY-qgp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="DeJ-CS-kSY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DeJ-CS-kSY" firstAttribute="leading" secondItem="pwG-98-TZs" secondAttribute="leading" id="359-9G-sUZ"/>
+                            <constraint firstItem="DeJ-CS-kSY" firstAttribute="top" secondItem="pwG-98-TZs" secondAttribute="top" constant="-44" id="LI9-RY-Dm8"/>
+                            <constraint firstItem="pwG-98-TZs" firstAttribute="bottom" secondItem="DeJ-CS-kSY" secondAttribute="bottom" constant="-34" id="Oj5-D3-bju"/>
+                            <constraint firstItem="pwG-98-TZs" firstAttribute="trailing" secondItem="DeJ-CS-kSY" secondAttribute="trailing" id="mUW-Kh-sm2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pwG-98-TZs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDR-BA-tUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" width="1089" height="2048"/>
+    </resources>
+</document>
