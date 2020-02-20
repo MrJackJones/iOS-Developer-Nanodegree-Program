@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JR6-A5-Jgs">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QiS-ug-T5r">
+            <objects>
+                <viewController id="JR6-A5-Jgs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="haB-T6-ZlF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="XRa-TQ-8OE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XRa-TQ-8OE" firstAttribute="leading" secondItem="YrV-vB-HJT" secondAttribute="leading" id="7vy-fh-8vk"/>
+                            <constraint firstItem="YrV-vB-HJT" firstAttribute="trailing" secondItem="XRa-TQ-8OE" secondAttribute="trailing" id="koc-cK-98h"/>
+                            <constraint firstItem="XRa-TQ-8OE" firstAttribute="top" secondItem="YrV-vB-HJT" secondAttribute="top" constant="-44" id="oJS-3x-R4p"/>
+                            <constraint firstItem="YrV-vB-HJT" firstAttribute="bottom" secondItem="XRa-TQ-8OE" secondAttribute="bottom" constant="-34" id="tt5-Pj-c2j"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YrV-vB-HJT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lTg-Ls-UvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" width="768" height="1024"/>
+    </resources>
+</document>

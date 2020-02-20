@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Jr-gx-fDm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="G12-gW-yFo">
+            <objects>
+                <viewController id="5Jr-gx-fDm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LQv-1H-U2G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MemeMeimg" translatesAutoresizingMaskIntoConstraints="NO" id="55E-I1-Mf6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cRf-fP-MRR" firstAttribute="bottom" secondItem="55E-I1-Mf6" secondAttribute="bottom" constant="-34" id="BpM-kt-r0b"/>
+                            <constraint firstItem="55E-I1-Mf6" firstAttribute="top" secondItem="cRf-fP-MRR" secondAttribute="top" constant="-44" id="Mvv-TY-Dm5"/>
+                            <constraint firstItem="55E-I1-Mf6" firstAttribute="leading" secondItem="cRf-fP-MRR" secondAttribute="leading" id="ShX-OJ-mfl"/>
+                            <constraint firstItem="cRf-fP-MRR" firstAttribute="trailing" secondItem="55E-I1-Mf6" secondAttribute="trailing" id="yNI-Ja-Vmx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cRf-fP-MRR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mDU-Wl-yoL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MemeMeimg" width="768" height="1024"/>
+    </resources>
+</document>
